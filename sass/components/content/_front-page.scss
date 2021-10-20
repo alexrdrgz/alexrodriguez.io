@@ -1,0 +1,40 @@
+
+
+.front-page{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $off_white;
+
+    .background-image{
+        background-size: cover;
+    }
+
+    .banner{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+
+        &-pretitle{
+            font-size: medium;
+            font-weight: 500;
+        }
+
+        &-content{
+            width: 65%;
+        }
+        &-max-width{
+            max-width: $max-width;
+        }
+        &-title{
+            font-size: 80px;
+        }
+    }
+
+    .left-side{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+}
