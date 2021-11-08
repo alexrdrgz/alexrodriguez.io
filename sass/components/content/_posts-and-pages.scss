@@ -1,7 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+
 a{
 	text-decoration: none;
 	color: black;
@@ -13,6 +10,22 @@ a:visited{
 
 .sticky {
 	display: block;
+}
+
+.nav-index{
+	color: #234CE0;
+	font-family: Roboto Mono, sans-serif;
+	margin-right: 0px 10px !important;
+}
+
+.menu-item{
+	width: 75px;
+	display: flex;
+	font-family: Roboto Mono, sans-serif;
+}
+
+.d-flex{
+	display: flex;
 }
 
 .post,

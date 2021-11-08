@@ -12,7 +12,10 @@
     get_header(); 
 ?>
 <main class="front-page background-color" >
-    <?php get_template_part('./template-parts/side-templates/right-side'); ?>
-    <?php get_template_part('./template-parts/side-templates/left-side'); ?>
     <?php get_template_part('./template-parts/front-page/front-page-banner');?>
+    <?php get_template_part('/template-parts/projects'); ?>
 </main>
+
+<?php
+    get_footer();
+?>
